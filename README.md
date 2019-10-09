@@ -1,14 +1,14 @@
 # 3card
 Idea creation tool with 3 cards.
 
-★gif
+![demo_3card](https://user-images.githubusercontent.com/23325839/66474667-b4db2700-eacc-11e9-90be-ea73f6f40b19.gif)
 
 ## Overview
 3card とは、カードリストから 3 枚のカードを次々に(自分のペースで)表示させることでアイデア創出を支援するフレームワークです。
 
-以下でパソコン用ツールを公開しています（スマホには非対応）。
+以下でパソコン用ツールを公開しています（スマホは非対応）。
 
-★demo link: ghpages
+→ [https://stakiran.github.io/3card/](https://stakiran.github.io/3card/)
 
 ## How to use
 まずはカードをつくります。
