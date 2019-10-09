@@ -1,0 +1,64 @@
+#cardEditorContainer {
+  display: flex;
+  justify-content: center;
+}
+
+#cardEditor {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 360px;
+  height: 120px;
+}
+
+#slotContainer {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.slot {
+  width: 200px;
+  height: 200px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: solid 1px #000000;
+
+  /* sticky として下に重なったカードが透過すると見えづらいので明示的に背景を塗って潰す. */
+  background-color: #ffffff;
+
+  /* カード名が長文の時にはみ出るのを防ぐ. */
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+.locked-slot {
+  border: solid 2px #ff0000;
+}
+
+.selected-slot {
+  border-top: double 8px #0000ff;
+}
+
+.card {
+  display: inline-block;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border: outset 2px silver;
+}
+
+.card-description {
+  padding: 5px;
+  font-size: 20px;
+}
+
+.selected-card {
+  border: dotted 2px #ff00ff;
+}
